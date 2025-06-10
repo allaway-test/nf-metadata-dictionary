@@ -479,6 +479,7 @@ slots:
     title: Leukemia
   libraryKitID:
     description: Library kit ID.
+    range: LibraryKitIDEnum
     required: true
   libraryPrep:
     description: The general strategy by which the library was prepared
@@ -1693,6 +1694,85 @@ enums:
         source: https://www.qiagen.com/us/products/discovery-and-translational-research/next-generation-sequencing/metagenomics/qiaseq-fx-dna-library-kit
       unknown:
         description: information not provided
+  LibraryKitIDEnum:
+    permissible_values:
+      Chromium NextGEM Single Cell 3' Reagent Kit v3.1:
+        description: 10x Genomics Chromium NextGEM Single Cell 3' Reagent Kit v3.1
+        source: https://www.10xgenomics.com/products/single-cell-gene-expression
+      Chromium NextGEM Single Cell 5' Reagent Kit v1.1:
+        description: 10x Genomics Chromium NextGEM Single Cell 5' Reagent Kit v1.1
+        source: https://www.10xgenomics.com/products/single-cell-gene-expression
+      Chromium Single Cell 3' Reagent Kit v3:
+        description: 10x Genomics Chromium Single Cell 3' Reagent Kit v3
+        source: https://www.10xgenomics.com/products/single-cell-gene-expression
+      Chromium Single Cell 5' Reagent Kit v1:
+        description: 10x Genomics Chromium Single Cell 5' Reagent Kit v1
+        source: https://www.10xgenomics.com/products/single-cell-gene-expression
+      TruSeq DNA PCR-Free Library Prep Kit:
+        description: Illumina TruSeq DNA PCR-Free Library Prep Kit
+        source: https://www.illumina.com/products/by-type/sequencing-kits/library-prep-kits/truseq-dna-pcr-free.html
+      TruSeq DNA Nano Library Prep Kit:
+        description: Illumina TruSeq DNA Nano Library Prep Kit
+        source: https://www.illumina.com/products/by-type/sequencing-kits/library-prep-kits/truseq-dna-nano.html
+      TruSeq Stranded mRNA Library Prep Kit:
+        description: Illumina TruSeq Stranded mRNA Library Prep Kit
+        source: https://www.illumina.com/products/by-type/sequencing-kits/library-prep-kits/truseq-stranded-mrna.html
+      TruSeq Stranded Total RNA Library Prep Kit:
+        description: Illumina TruSeq Stranded Total RNA Library Prep Kit with Ribo-Zero
+        source: https://www.illumina.com/products/by-type/sequencing-kits/library-prep-kits/truseq-stranded-total-rna.html
+      NEBNext Ultra II DNA Library Prep Kit:
+        description: New England Biolabs NEBNext Ultra II DNA Library Prep Kit for Illumina
+        source: https://www.neb.com/products/e7645-nebnext-ultra-ii-dna-library-prep-kit-for-illumina
+      NEBNext Ultra II RNA Library Prep Kit:
+        description: New England Biolabs NEBNext Ultra II RNA Library Prep Kit for Illumina
+        source: https://www.neb.com/products/e7770-nebnext-ultra-ii-rna-library-prep-kit-for-illumina
+      KAPA HyperPrep Kit:
+        description: KAPA HyperPrep Kit for Illumina platforms
+        source: https://sequencing.roche.com/en/products-solutions/products/sample-preparation/dna-reagents/library-preparation/kapa-hyperprep.html
+      KAPA RNA HyperPrep Kit:
+        description: KAPA RNA HyperPrep Kit with RiboErase
+        source: https://sequencing.roche.com/global/en/products/group/kapa-rna-hyperprep-kits.html
+      SureSelect Human All Exon V6:
+        description: Agilent SureSelect Human All Exon V6 exome capture kit
+        source: https://www.agilent.com/en/product/next-generation-sequencing/hybridization-based-next-generation-sequencing-ngs/ngs-exome-kits/sureselect-human-all-exon-kits-231870
+      SureSelect Human All Exon V7:
+        description: Agilent SureSelect Human All Exon V7 exome capture kit
+        source: https://www.agilent.com/en/product/next-generation-sequencing/hybridization-based-next-generation-sequencing-ngs/ngs-exome-kits/sureselect-human-all-exon-kits-231870
+      xGen Exome Research Panel v1:
+        description: IDT xGen Exome Research Panel v1
+        source: https://www.idtdna.com/pages/products/next-generation-sequencing/targeted-sequencing/hybridization-capture/predesigned-panels/xgen-exome-research-panel-v1
+      xGen Exome Research Panel v2:
+        description: IDT xGen Exome Research Panel v2
+        source: https://www.idtdna.com/pages/products/next-generation-sequencing/targeted-sequencing/hybridization-capture/predesigned-panels/xgen-exome-research-panel-v2
+      Twist Human Core Exome Kit:
+        description: Twist Bioscience Human Core Exome Kit
+        source: https://www.twistbioscience.com/products/ngs/fixed-panels/human-core-exome-kit
+      Nextera DNA Flex Library Prep Kit:
+        description: Illumina Nextera DNA Flex Library Prep Kit
+        source: https://www.illumina.com/products/by-type/sequencing-kits/library-prep-kits/nextera-dna-flex.html
+      Nextera XT DNA Library Prep Kit:
+        description: Illumina Nextera XT DNA Library Prep Kit
+        source: https://www.illumina.com/products/by-type/sequencing-kits/library-prep-kits/nextera-xt-dna.html
+      SMART-Seq v4 Ultra Low Input RNA Kit:
+        description: Takara Bio SMART-Seq v4 Ultra Low Input RNA Kit for Sequencing
+        source: https://www.takarabio.com/products/next-generation-sequencing/single-cell-rna-and-dna-seq/smart-seq-v4-for-mrna-seq
+      QuantSeq 3' mRNA-Seq Library Prep Kit FWD:
+        description: Lexogen QuantSeq 3' mRNA-Seq Library Prep Kit FWD for Illumina
+        source: https://www.lexogen.com/quantseq-3mrna-sequencing/
+      ThruPLEX DNA-Seq Kit:
+        description: Takara Bio ThruPLEX DNA-Seq Kit
+        source: https://www.takarabio.com/products/next-generation-sequencing/dna-seq/thruplex-dna-seq
+      Swift 2S Turbo DNA Library Kit:
+        description: Swift Biosciences 2S Turbo DNA Library Kit
+        source: https://swiftbiosci.com/swift-2s-turbo-dna-library-kits/
+      Oxford Nanopore Ligation Sequencing Kit:
+        description: Oxford Nanopore Technologies Ligation Sequencing Kit
+        source: https://store.nanoporetech.com/sequencing-kits.html
+      Oxford Nanopore Rapid Sequencing Kit:
+        description: Oxford Nanopore Technologies Rapid Sequencing Kit
+        source: https://store.nanoporetech.com/sequencing-kits.html
+      unknown:
+        description: Library kit information not provided or not available
   MRISequenceEnum:
     permissible_values:
       PD-weighted:
