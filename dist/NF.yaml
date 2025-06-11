@@ -1747,6 +1747,96 @@ enums:
       Twist Human Core Exome Kit:
         description: Twist Bioscience Human Core Exome Kit
         source: https://www.twistbioscience.com/products/ngs/fixed-panels/human-core-exome-kit
+      Twist RefSeq Exome Panel:
+        description: Twist Bioscience RefSeq Exome Panel - curated subset of protein coding genes from CCDS
+        source: https://www.twistbioscience.com/products/ngs
+      Twist Comprehensive Exome Panel:
+        description: Twist Bioscience Comprehensive Exome Panel - protein coding genes from RefSeq, CCDS, and GENCODE
+        source: https://www.twistbioscience.com/products/ngs
+      Twist Exome Panel 2.0:
+        description: Twist Bioscience Exome Panel 2.0 - protein coding genes from RefSeq, CCDS, and GENCODE
+        source: https://www.twistbioscience.com/products/ngs
+      MGI Easy Exome Capture V4:
+        description: MGI Easy Exome Capture V4 - CCDS, GENCODE, RefSeq, and miRBase
+        source: https://www.mgi-tech.com/
+      MGI Easy Exome Capture V5:
+        description: MGI Easy Exome Capture V5 - CCDS, GENCODE, RefSeq, miRBase, and MGI Clinical Database
+        source: https://www.mgi-tech.com/
+      Agilent SureSelect Clinical Research Exome:
+        description: Agilent SureSelect Clinical Research Exome - disease-associated regions from OMIM, HGMD, and ClinVar
+        source: https://www.agilent.com/en/product/next-generation-sequencing/hybridization-based-next-generation-sequencing-ngs/ngs-exome-kits
+      Agilent SureSelect Clinical Research Exome V2:
+        description: Agilent SureSelect Clinical Research Exome V2 - disease-associated regions from OMIM, HGMD, ClinVar, and ACMG
+        source: https://www.agilent.com/en/product/next-generation-sequencing/hybridization-based-next-generation-sequencing-ngs/ngs-exome-kits
+      Agilent SureSelect Focused Exome:
+        description: Agilent SureSelect Focused Exome - disease-associated regions from HGMD, OMIM and ClinVar
+        source: https://www.agilent.com/en/product/next-generation-sequencing/hybridization-based-next-generation-sequencing-ngs/ngs-exome-kits
+      Agilent SureSelect All Exon V4:
+        description: Agilent SureSelect All Exon V4 - coding regions from CCDS, RefSeq, and GENCODE v6, miRBase v17, TCGA v6, and UCSC known genes
+        source: https://www.agilent.com/en/product/next-generation-sequencing/hybridization-based-next-generation-sequencing-ngs/ngs-exome-kits
+      Agilent SureSelect All Exon V4 + UTRs:
+        description: Agilent SureSelect All Exon V4 + UTRs - coding regions and 5' and 3' UTR sequences from CCDS, RefSeq, and GENCODE v6
+        source: https://www.agilent.com/en/product/next-generation-sequencing/hybridization-based-next-generation-sequencing-ngs/ngs-exome-kits
+      Agilent SureSelect All Exon V5:
+        description: Agilent SureSelect All Exon V5 - coding regions from Refseq, GENCODE, UCSC, TCGA, CCDS, and miRBase
+        source: https://www.agilent.com/en/product/next-generation-sequencing/hybridization-based-next-generation-sequencing-ngs/ngs-exome-kits
+      Agilent SureSelect All Exon V5 + UTRs:
+        description: Agilent SureSelect All Exon V5 + UTRs - coding regions and 5' and 3' UTR sequences from Refseq, GENCODE, UCSC, TCGA, CCDS, and miRBase
+        source: https://www.agilent.com/en/product/next-generation-sequencing/hybridization-based-next-generation-sequencing-ngs/ngs-exome-kits
+      Agilent SureSelect All Exon V6 r2:
+        description: Agilent SureSelect All Exon V6 r2 - coding regions from RefSeq, CCDS, GENCODE, HGMD, and OMIM
+        source: https://www.agilent.com/en/product/next-generation-sequencing/hybridization-based-next-generation-sequencing-ngs/ngs-exome-kits
+      Agilent SureSelect All Exon V6 + COSMIC r2:
+        description: Agilent SureSelect All Exon V6 + COSMIC r2 - coding regions from RefSeq, CCDS, GENCODE, HGMD, and OMIM, and targets from both TCGA and COSMIC
+        source: https://www.agilent.com/en/product/next-generation-sequencing/hybridization-based-next-generation-sequencing-ngs/ngs-exome-kits
+      Agilent SureSelect All Exon V6 + UTR r2:
+        description: Agilent SureSelect All Exon V6 + UTR r2 - coding regions and 5' and 3' UTR sequences from RefSeq, GENCODE, CCDS, and UCSC known genes, and miRNAs and lncRNA sequences
+        source: https://www.agilent.com/en/product/next-generation-sequencing/hybridization-based-next-generation-sequencing-ngs/ngs-exome-kits
+      Agilent SureSelect All Exon V7:
+        description: Agilent SureSelect All Exon V7 - coding regions from RefSeq, CCDS, GENCODE, and UCSC known genes
+        source: https://www.agilent.com/en/product/next-generation-sequencing/hybridization-based-next-generation-sequencing-ngs/ngs-exome-kits
+      Roche KAPA HyperExome:
+        description: Roche KAPA HyperExome - coding regions from CCDS, RefSeq, Ensembl, GENCODE, and variants from ClinVar
+        source: https://sequencing.roche.com/en/products-solutions/products/sample-preparation/dna-reagents/targeted-sequencing/kapa-hyperexome.html
+      Roche SeqCap EZ Exome V3:
+        description: Roche SeqCap EZ Exome V3 - coding regions from RefSeq RefGene CDS, CCDS, and miRBase v14 databases
+        source: https://sequencing.roche.com/global/en/products/group/seqcap-ez-exome-probes.html
+      Roche SeqCap EZ Exome V3 + UTR:
+        description: Roche SeqCap EZ Exome V3 + UTR - coding sequences from RefSeq RefGene, CCDS, and miRBase v14, plus UTRs from RefSeq RefGene table
+        source: https://sequencing.roche.com/global/en/products/group/seqcap-ez-exome-probes.html
+      Roche SeqCap EZ MedExome:
+        description: Roche SeqCap EZ MedExome - coding sequences from CCDS 17, RefSeq, Ensembl 76, VEGA 56, GENCODE 20, miRBase 21, and disease-associated regions
+        source: https://sequencing.roche.com/global/en/products/group/seqcap-ez-exome-probes.html
+      Roche SeqCap EZ MedExome + Mito:
+        description: Roche SeqCap EZ MedExome + Mito - coding sequences and mitochondrial genes from CCDS 17, RefSeq, Ensembl 76, VEGA 56, GENCODE 20 and miRBase 21
+        source: https://sequencing.roche.com/global/en/products/group/seqcap-ez-exome-probes.html
+      Illumina Nextera DNA Exome V1.2:
+        description: Illumina Nextera DNA Exome V1.2 - coding regions from RefSeq, CCDS, Ensembl, and GENCODE v19
+        source: https://www.illumina.com/products/by-type/sequencing-kits/library-prep-kits/nextera-dna-exome.html
+      Illumina Nextera Rapid Capture Exome:
+        description: Illumina Nextera Rapid Capture Exome - 212,158 targeted exonic regions in GRCh37/hg19
+        source: https://www.illumina.com/products/by-type/sequencing-kits/library-prep-kits/nextera-rapid-capture-exome.html
+      Illumina Nextera Rapid Capture Exome V1.2:
+        description: Illumina Nextera Rapid Capture Exome V1.2 - coding regions from RefSeq, CCDS, Ensembl, and GENCODE v12
+        source: https://www.illumina.com/products/by-type/sequencing-kits/library-prep-kits/nextera-rapid-capture-exome.html
+      Illumina Nextera Rapid Capture Expanded Exome:
+        description: Illumina Nextera Rapid Capture Expanded Exome - coding regions from RefSeq, CCDS, Ensembl, and GENCODE v12
+        source: https://www.illumina.com/products/by-type/sequencing-kits/library-prep-kits/nextera-rapid-capture-expanded-exome.html
+      Illumina TruSeq DNA Exome V1.2:
+        description: Illumina TruSeq DNA Exome V1.2 - coding regions from RefSeq, CCDS, and Ensembl
+        source: https://www.illumina.com/products/by-type/sequencing-kits/library-prep-kits/truseq-dna-exome.html
+      Illumina TruSeq Rapid Exome V1.2:
+        description: Illumina TruSeq Rapid Exome V1.2 - coding regions from RefSeq, CCDS, Ensembl, and GENECODE v19
+        source: https://www.illumina.com/products/by-type/sequencing-kits/library-prep-kits/truseq-rapid-exome.html
+      Illumina TruSight ONE V1.1:
+        description: Illumina TruSight ONE V1.1 - coding regions of 6700 genes from HGMD, OMIM, and GeneTest
+        source: https://www.illumina.com/products/by-type/sequencing-kits/library-prep-kits/trusight-one-sequencing-panel.html
+      Illumina TruSight Exome:
+        description: Illumina TruSight Exome - disease-causing mutations as curated by HGMD
+        source: https://www.illumina.com/products/by-type/sequencing-kits/library-prep-kits/trusight-exome.html
+      Illumina AmpliSeq Exome Panel:
+        description: Illumina AmpliSeq Exome Panel - CCDS coding regions
+        source: https://www.illumina.com/products/by-type/sequencing-kits/library-prep-kits/ampliseq-exome-panel.html
       Nextera DNA Flex Library Prep Kit:
         description: Illumina Nextera DNA Flex Library Prep Kit
         source: https://www.illumina.com/products/by-type/sequencing-kits/library-prep-kits/nextera-dna-flex.html
