@@ -601,6 +601,7 @@ slots:
     title: Leukemia
   libraryKitID:
     description: Library kit ID.
+    range: LibraryKitIDEnum
     required: true
   libraryPrep:
     description: The general strategy by which the library was prepared
