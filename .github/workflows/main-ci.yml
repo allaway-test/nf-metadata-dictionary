@@ -8,6 +8,12 @@ on:
       - 'modules/**'
       - '.github/workflows/main-ci.yml'
   
+  push:
+    branches: [main]
+    paths:
+      - 'modules/**'
+      - '.github/workflows/main-ci.yml'
+  
   workflow_dispatch:
 
 env:
@@ -20,7 +26,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: ${{ github.event.pull_request.head.ref }}
+          ref: ${{ github.event_name == 'pull_request' && github.event.pull_request.head.ref || github.ref }}
           persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal access token.
           fetch-depth: 0 # otherwise, there would be errors pushing refs to the destination repository
 
@@ -73,7 +79,7 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
          github_token: ${{ secrets.GITHUB_TOKEN }}
-         branch: ${{ github.event.pull_request.head.ref }}
+         branch: ${{ github.event_name == 'pull_request' && github.event.pull_request.head.ref || github.ref_name }}
       
 
   
@@ -86,7 +92,7 @@ jobs:
       SCHEMATIC_SERVICE_ACCT_CREDS: ${{ secrets.SCHEMATIC_SERVICE_ACCT_CREDS }}
     permissions:
       pull-requests: write
-    if: ${{ !contains(github.event.pull_request.labels.*.name, 'skip tests') }}
+    if: ${{ github.event_name == 'pull_request' && !contains(github.event.pull_request.labels.*.name, 'skip tests') }}
     # strategy:
     #  matrix:  
     # cannot actually do parallel/concurrent testing because of API rate limits, 
